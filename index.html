@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+              rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+        <title>The Voice Kids......</title>
+    </head>
+
+    <body dir="rtl">
+        <div class="row row-content justify-content-center">
+            <div class="col-md-4"><img src="img/melody.png" alt="Melody is the Life" class="img-fluid"></div>
+            <div class="col-md-4">
+                <div class="row row-content justify-content-center"><span
+                          class="h3 text-center font-weight-bold mt-5 text-danger">The
+                        Voice
+                        Kids</span></div>
+                <div class="row row-content justify-content-center"><span
+                          class="h3 text-center font-weight-bold mt-5 text-danger"><bdi>صوت الأطفال</bdi></span></div>
+            </div>
+            <div class="col-md-4">
+                <div class="row row-content">
+                    <span class="h5 font-weight-bold mt-3">
+                        <bdi>
+                            تسجيل دخول الأطفال المرشحين
+                        </bdi>
+                    </span>
+                </div>
+                <div class="row row-content justify-content-start">
+                    <form>
+                        <label for="Email" class="font-weight-bold">
+                            <bdi>
+                                البريد الالكتروني:
+                            </bdi>
+                        </label>
+                        <input type="email" name="email" id="Email"><br>
+                        <label for="Password" class="font-weight-bold">
+                            <bdi>
+                                كلمة السر:
+                            </bdi>
+                        </label>
+                        <input type="password" name="password" id="Password"><br>
+                        <input type="checkbox" name="show" id="show-pass" onclick="show_pass();">
+                        <label for="show-pass" class="font-weight-bold">
+                            <bdi>
+                                إظهار كلمة السر.
+                            </bdi>
+                        </label>
+                        <br>
+                        <input type="button" value="دخول">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><bdi>الصفحة الرئيسية</bdi> <span
+                                      class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><bdi>من نحن</bdi></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><bdi>المواعيد</bdi></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><bdi>لجنة الحكم</bdi></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><bdi>الأغاني المقترحة</bdi></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><bdi>أسماء المرشحين</bdi></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><bdi>تسجيل الأطفال </bdi></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><bdi>نابعنا</bdi></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><bdi>اتصل بنا</bdi></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container text-center" id="description">
+            <div class="col-md-12 mt-5 justify-content-center">
+                <div class="row row-content justify-content-center">
+                    <h4 class="text-center font-weight-bold">
+                        <bdi>
+                            لمحة عن موقع صوت الأطفال
+                        </bdi>
+                    </h4>
+                </div>
+                <div class="row row-content justify-content-center">
+                    <p class="text-center w-50">
+                        <bdi>
+                            هو برنامج موجَّه للأطفال من عمر السابعة و حتى السادسة عشر، بحيث يقف المشتركون على المسرح
+                            لأول
+                            مرة و
+                            الحكام يستديرون للجمهور و يشرع الطفل في الغناء، ففي حال لف له مدرب واحد فينظم تلقائياً
+                            لفريقه و
+                            في
+                            حال لف له أكثر من مدرب فالقرار يعود للمشترك وحده فيختار لمن ينظم.
+                        </bdi>
+                    </p>
+                </div>
+                <div class="row row-content justify-content-center">
+                    <p class="text-center w-50">
+                        <bdi>
+                            وبعد أن يكتمل فرق المدربين الثلاثة المكون من 75 صوت، تنطلق مرحلة المواجهة و تكون كل مواجهة
+                            ثلاثية داخل كل فريق، و المدرب يختار مشترك وحيد من كل مواجهة لينتقل معه للمرحلة التالية و
+                            يتأهل
+                            خمسة مشتركين من كل فريق إلى مرحلة المواجهة الأخيرة بحيث يختار كل مدرب مشتركين اثنين ليصعد
+                            بهم
+                            إلة المرحلة النهائية المباشرة.
+                        </bdi>
+                    </p>
+                </div>
+                <div class="row row-content justify-content-center">
+                    <p class="text-center w-50">
+                        <bdi>
+                            يؤدي كل مشترك في مرحلة المواجهة النهائية أغنية منفردة ثم أغنية مع زميله في الفريق و مدربه و
+                            من
+                            ثم يصوت الجمهور على مشترك من كل فريق للتأهل ‘لى المرحلة التالية من النهائي و بحيث يؤدي كل
+                            مشترك
+                            أغنية واحدة و يعود الجمهور للتصويت و عندها يحسم بطل النسخة.
+                        </bdi>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <div class="row row-content justify-content-center">
+                <div class="col-md-4">
+                    <div class="row row-content justify-content-center">
+                        <span class="h6 text-center">
+                            <bdi>
+                                الأغاني المقترحة للأطفال
+                            </bdi>
+                        </span>
+                    </div>
+                    <div class="row row-content justify-content-center" id="song-suggest">
+                        <div class="col-md-12 justify-content-center">
+                            <div class="row row-content justify-content-center mb-3">
+                                <label for="fayrooz"><bdi>قائمة أغاني فيروز:</bdi></label>
+                                <select name="fayrooz" id="fayrooz">
+                                    <option value="Fayeq_Hawa">
+                                        <bdi>
+                                            فايق يا هوا
+                                        </bdi>
+                                    </option>
+                                    <option value="Ana_LA_HAbibi">
+                                        <bdi>
+                                            أنا لحبيبي
+                                        </bdi>
+                                    </option>
+                                    <option value="Kefak_Enta">
+                                        <bdi>
+                                            كيفك أنتا
+                                        </bdi>
+                                    </option>
+                                    <option value="Ya_Tayr">
+                                        <bdi>
+                                            يا طير
+                                        </bdi>
+                                    </option>
+                                    <option value="Bektob_Esamk">
+                                        <bdi>
+                                            بكتب اسمك
+                                        </bdi>
+                                    </option>
+                                    <option value="Ya_Emy">
+                                        <bdi>
+                                            يا أمي ما بعرف
+                                        </bdi>
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="row row-content justify-content-center mb-3">
+                                <label for="hafez">
+                                    <bdi>
+                                        قائمة أغاني عبد الحليم:
+                                    </bdi>
+                                </label>
+                                <select name="hafez" id="hafez">
+                                    <option value="Gabbar">
+                                        <bdi>
+                                            جبّار
+                                        </bdi>
+                                    </option>
+                                    <option value="Cup_Reader">
+                                        <bdi>
+                                            قارئة الفنجان
+                                        </bdi>
+                                    </option>
+                                    <option value="Mawood">
+                                        <bdi>
+                                            موعود
+                                        </bdi>
+                                    </option>
+                                    <option value="Gana_Hawa">
+                                        <bdi>
+                                            جانا الهوا
+                                        </bdi>
+                                    </option>
+                                    <option value="Sawah">
+                                        <bdi>
+                                            سواح
+                                        </bdi>
+                                    </option>
+                                    <option value="Kamel_Awsaf">
+                                        <bdi>
+                                            كامل الأوصاف
+                                        </bdi>
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="row row-content justify-content-center mb-3">
+                                <label for="atrash">
+                                    <bdi>
+                                        قائمة أغاني فريد الأطرش:
+                                    </bdi>
+                                </label>
+                                <select name="atrash" id="atrash">
+                                    <option value="Hayat_Helwa">
+                                        <bdi>
+                                            الحياة حلوة
+                                        </bdi>
+                                    </option>
+                                    <option value="Write_Leaves">
+                                        <bdi>
+                                            لكتب على أوراق الشجر
+                                        </bdi>
+                                    </option>
+                                    <option value="Ya_Habibi">
+                                        <bdi>
+                                            يا حبيبي
+                                        </bdi>
+                                    </option>
+                                    <option value="Ya_Habaybeh">
+                                        <bdi>
+                                            يا حبايبي يا غايبين
+                                        </bdi>
+                                    </option>
+                                    <option value="Noura_Ya_Noura">
+                                        <bdi>
+                                            نورا يا نورا
+                                        </bdi>
+                                    </option>
+                                    <option value="Dayman_Maak">
+                                        <bdi>
+                                            دايماً معاك
+                                        </bdi>
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="row row-content justify-content-center mb-3">
+                                <label for="om_Kolthoom">
+                                    <bdi>
+                                        قائمة أغاني أم كلثوم:
+                                    </bdi>
+                                </label>
+                                <select name="Kolthoom" id="om_Kolthoom">
+                                    <option value="Amal_Hayatey">
+                                        <bdi>
+                                            أمل حياتي
+                                        </bdi>
+                                    </option>
+                                    <option value="Anta_Omry">
+                                        <bdi>
+                                            أنت عمري
+                                        </bdi>
+                                    </option>
+                                    <option value="Ya_Msaharney">
+                                        <bdi>
+                                            يا مسهرني
+                                        </bdi>
+                                    </option>
+                                    <option value="Hob_Eeh">
+                                        <bdi>
+                                            حب أيه
+                                        </bdi>
+                                    </option>
+                                    <option value="AL_Atlal">
+                                        <bdi>
+                                            الأطلال
+                                        </bdi>
+                                    </option>
+                                    <option value="Fakarouney">
+                                        <bdi>
+                                            فكروني
+                                        </bdi>
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="row row-content justify-content-center mb-3">
+                                <label for="warda">
+                                    <bdi>
+                                        قائمة أغاني وردة الجزائرية:
+                                    </bdi>
+                                </label>
+                                <select name="warda" id="warda">
+                                    <option value="Batwanes_Beek">
+                                        <bdi>
+                                            بتونس بيك
+                                        </bdi>
+                                    </option>
+                                    <option value="Eloyoon_Elsood">
+                                        <bdi>
+                                            العيون السود
+                                        </bdi>
+                                    </option>
+                                    <option value="Akdeb_Aleek">
+                                        <bdi>
+                                            أكدب عليك
+                                        </bdi>
+                                    </option>
+                                    <option value="Ala_Eeneh">
+                                        <bdi>
+                                            على عيني
+                                        </bdi>
+                                    </option>
+                                    <option value="Awqatey_Tehlaw">
+                                        <bdi>
+                                            أوقاتي بتحلو
+                                        </bdi>
+                                    </option>
+                                    <option value="Law_Saalook">
+                                        <bdi>
+                                            لو سألوك
+                                        </bdi>
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row row-content justify-content-center">
+                        <p class="font-weight-bold">
+                            <bdi>
+                                لجنة التحكيم
+                            </bdi>
+                        </p>
+                    </div>
+                    <div class="row row-content justify-content-center">
+                        <div class="col-md-4">
+                            <img src="img/nancy.jpg" alt="NAncy Agram" class="img-fluid">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/sherine-abdel-wahab.jpg" height="" alt="Shereen" class="img-fluid">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/carol.jpg" alt="Carol" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="row row-content justify-content-center">
+                        <div class="col-md-4">
+                            <a href="https://en.wikipedia.org/wiki/Nancy_Ajram" target="_blank">
+                                <bdi>
+                                    الفنانة نانسي عجرم
+                                </bdi>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://en.wikipedia.org/wiki/Sherine" target="_blank">
+                                <bdi>
+                                    الفنانة شيرين عبد الوهاب
+                                </bdi>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://en.wikipedia.org/wiki/Carole_Samaha" target="_blank">
+                                <bdi>
+                                    الفنانة كارول سماحة
+                                </bdi>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row row-content justify-content-center">
+                        <p class="font-weight-bold">
+                            <bdi>
+                                مواعيد المقابلات
+                            </bdi>
+                        </p>
+                    </div>
+                    <div class="row row-content justify-content-center">
+                        <p class="font-weight-bold">
+                            <bdi>
+                                بعد الرجوع لمنسق مسرح الصوت و بس ثم اعتماد يوم السبت من كل أسبوع عند الساعة الثالثة
+                                عصراً
+                                موعداً محجوزاً لصالح مركز أحلى صوت و ذلك اعتباراً من تاريخ اليوم الحالي و حتى إشعار آخر.
+                            </bdi>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center py-5" id="child-register">
+            <div class="row row-content justify-content-center">
+                <p class="text-center font-weight-bold">
+                    <u>
+                        <bdi>
+                            تسجيل الأطفال
+                        </bdi>
+                    </u>
+                </p>
+            </div>
+            <div class="row row-content justify-content-center">
+                <label for="name" class="font-weight-bold"><bdi>اسم الطفل الثلاثي:</bdi></label>
+                <input class="mx-2" type="text" name="name" id="name" placeholder="الاسم الكامل">
+                <label for="phone" class="font-weight-bold"><bdi>رقم الهاتف:</bdi></label>
+                <input class="mx-2" type="tel" name="phone" id="phone" placeholder="رقم الهاتف الثابت أو الجوال">
+                <label for="date" class="font-weight-bold"><bdi>تاريخ الميلاد:</bdi></label>
+                <input class="mx-2" type="date" name="date" id="date">
+                <label for="song" class="font-weight-bold"><bdi>اسم الأغنية المختارة :</bdi></label>
+                <input class="mx-2" type="text" width="250" name="song" id="song"
+                       placeholder="أغنية سيتم تأديتها أمام اللجنة">
+            </div>
+            <div class="row row-content justify-content-center pt-3">
+                <input type="button" value="تفريغ الحقول" class="ml-3"><input type="button" value="إرسال الطلب">
+            </div>
+        </div>
+        <div class="container text-center">
+            <p class="text-center font-weight-bold">
+                <bdi>
+                    أسماء المرشحون
+                </bdi>
+            </p>
+            <p class="text-center font-weight-bold">
+                <bdi>
+                    سيتم إعلان نتائج القبول للأطفال المتقدمين على برنامج <span class="mark">The Voice Kids</span> عند
+                    انتهاء وقت
+                    التقديم و مراجعة كامل طلبات المراسلة.
+                </bdi>
+            </p>
+            <p class="text-center font-weight-bold">
+                <bdi>
+                    تابعنا
+                </bdi>
+            </p>
+
+            <!-- Instagram -->
+            <a style="color: #ac2bac" href="#!" role="button" class="mr-3"><i class="fab fa-instagram fa-3x"></i></a>
+            <!-- Youtube -->
+            <a style="color: #dd4b39" href="#!" role="button" class="mr-3"><i
+                   class="fab fa-youtube-square fa-3x"></i></a>
+            <!-- Twitter -->
+            <a style="color: #55acee" href="#!" role="button" class="mr-3"><i
+                   class="fab fa-twitter-square fa-3x"></i></a>
+            <!-- Facebook -->
+            <a style="color: #3b5998" href="#!" role="button" class="mr-3"><i
+                   class="fab fa-facebook-square fa-3x"></i></a>
+        </div>
+        <div class="container-fluid text-center mt-5" id="contact-us">
+            <div class="col-md-12">
+                <div class="row row-content justify-content-center">
+                    <p class="text-center font-weight-bold">
+                        <bdi>
+                            اتصل بنا
+                        </bdi>
+                    </p>
+                </div>
+                <div class="row row-content justify-content-center mb-4">
+                    <label for="visitor" class="font-weight-bold"><bdi>اسم الزائر: </bdi></label>
+                    <input type="text" name="visitor" id="visitor" placeholder="الاسم الكامل">
+                </div>
+                <div class="row row-content justify-content-center mb-4">
+                    <label for="visitorMail" class="font-weight-bold"><bdi>البريد الالكتروني: </bdi></label>
+                    <input type="email" name="visitorMail" id="visitorMail" placeholder="أدخل البريد الالكتروني">
+                </div>
+                <div class="row row-content justify-content-center mb-4">
+                    <label for="" class="font-weight-bold"><bdi>سبب الاتصال: </bdi></label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input ml-2" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                               value="option1" />
+                        <label class="form-check-label" for="inlineRadio1"><bdi>شكوى</bdi></label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input ml-2" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                               value="option2" />
+                        <label class="form-check-label" for="inlineRadio2"><bdi>استفسار</bdi></label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input ml-2" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                               value="option3" />
+                        <label class="form-check-label" for="inlineRadio3"><bdi>اقتراح</bdi></label>
+                    </div>
+                </div>
+                <div class="row row-content justify-content-center mb-1">
+                    <p class="text-center font-weight-bold">
+                        <bdi>
+                            من فضلك اكتب نص الرسالة في مربع النص التالي:
+                        </bdi>
+                    </p>
+                </div>
+                <div class="row row-content justify-content-center mb-4">
+                    <textarea name="letter" id="letter" cols="80" rows="10"
+                              placeholder="(اكتب باختصار و إيجاز...)"></textarea>
+                </div>
+                <div class="row row-content justify-content-center">
+                    <button type="button" class="btn btn-dark btn-rounded font-weight-bold mb-5">إرسال الرسالة</button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-light text-center text-lg-left">
+            <!-- Copyright -->
+            <div class="text-center p-3 font-weight-bold" style="background-color: rgba(0, 0, 0, 0.2);">
+                <bdi>
+                    جميع الحقوق محفوظة لصالح مركز أحلى صوت الداعم لموقع صوت الأطفال &copy; 2020
+                </bdi>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+        </script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript"
+                src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js">
+        </script>
+        <!-- Our Own JS File -->
+        <script src="js/script.js"></script>
+    </body>
+
+</html>

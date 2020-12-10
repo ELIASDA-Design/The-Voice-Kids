@@ -1,0 +1,28 @@
+#description {
+    background: url("../img/vocal.png");
+    background-attachment: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#child-register,
+#contact-us {
+    background-color: #b1ae9a;
+}
+
+span.mark {
+    background-color: yellow;
+    color: black;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+    font-family: 'Times New Roman', Times, serif
+}
